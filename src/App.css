@@ -1,8 +1,77 @@
 
 body{
-  background-color: black;
-  color:aliceblue
+  background-color:#5AB3F1;
+  color:aliceblue;
 }
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wraper{
+  background-color: rgb(50, 4, 177);
+  width:800px;
+  margin-top: 100px;
+ text-align: center;
+
+}
+input{
+  padding: 4px;
+  margin-right: 8px;
+  width: 600px;
+  font-size: 20px;
+}
+
+ul{
+  list-style: none;
+  text-align: left;
+}
+li{
+  margin: 12px 0;
+  font-size: 20px;
+}
+
+.btnAdd{
+  font-size: 14px;
+  border-radius: 4px;
+   padding: 6px;
+    float: right;
+    margin-right: 8px;
+    width: 160px;
+    background-color: green;
+    border: #fafafa solid;
+
+}
+
+.btnDelet,.btnUpdate{
+  font-size: 14px;
+  color: white;
+  margin-left: 8px;
+
+  border: none;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+    float: right;
+
+}
+
+.btnUpdate{
+  background-color: green;
+    
+}
+
+.btnDelet{
+background-color: red;
+margin-right: 8px;
+}
+
+.btnDelet:hover{
+  font-size: 15px;
+}
+
+.btnUpdate:hover{
+  font-size: 15px;
+
 }
